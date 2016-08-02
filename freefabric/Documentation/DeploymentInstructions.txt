@@ -1,0 +1,7 @@
+# Standard mininet tree topology
+sudo mn --switch ovsk --controller remote --topo tree,depth=2,fanout=2 --mac
+
+# The Ryu application
+cd /home/ubuntu/ryu && ./bin/ryu-manager --verbose \
+/home/ubuntu/ryu/ryu/app/freefabric/ofctl_rest.py /home/ubuntu/ryu/ryu/app/freefabric/Topology/FabricTopology.py --observe-links
+
