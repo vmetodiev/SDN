@@ -1,5 +1,7 @@
 The project itself:
 
+Current Project Status: On hold, to be continued soon...
+
 FreeFabric is an open source SDN forwarding fabric that lies on top of the Ryu Controller. It consists of the following modules:
 
 
